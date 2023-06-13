@@ -118,7 +118,7 @@ echo "<link rel='stylesheet' href='" . plugin_dir_url(__FILE__) . "css/style.css
 
 </html>
 <?php
-$language = sanitize_text_field($_POST['language']);
+//$language = sanitize_text_field($_POST['language']);
 
 // Redireciona para a página correspondente, com base no valor do "select"
 if ($language === 'en') {
