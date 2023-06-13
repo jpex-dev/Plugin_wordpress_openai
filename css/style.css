@@ -1,0 +1,368 @@
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-right: 20px;
+    text-align: left;
+    font-weight: bold;
+    color: #0D0D0D;
+    margin-left: 32px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input {
+    width: 300px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+title {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button1 {
+    margin-left: 32px;
+    background-color: #D9D9D9;
+    border-color: #D9D9D9;
+    border-radius: 5px;
+    width: 85px;
+    height: 32px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+.button2 {
+    margin-left: 68px;
+    background-color: #D9D9D9;
+    border-color: #D9D9D9;
+    border-radius: 5px;
+    width: 120px;
+    height: 32px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 40px;
+}
+
+.box1 {
+    float: left;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.box2_inner {
+    width: 50%;
+    height: 50%;
+    left: 51%;
+    position: relative;
+    background: #E6E6FF;
+}
+
+.topright {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    margin-right: 100px;
+    margin-top: 83px;
+}
+
+#generated_text {
+    position: absolute;
+    bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input[type=text] {
+    background-color: #D9D9D9;
+    border-color: #D9D9D9;
+    border-radius: 5px;
+    display: block;
+    margin-left: 32px;
+}
+
+input[type=number] {
+    background-color: #D9D9D9;
+    border-color: #D9D9D9;
+    border-radius: 5px;
+    display: block;
+    margin-left: 32px;
+}
+
+input[type=checkbox] {
+    background-color: #FFFFFF;
+    border-color: #0D0D0D;
+    border-radius: 5px;
+    margin-left: 32px;
+}
+
+input[type=radio] {
+    margin-right: -1.75rem;
+    margin-left: 32px;
+}
+
+
+.lang {
+    margin-left: 0px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.elang {
+    margin-left: 0px;
+    margin-bottom: -15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wp-core-ui select {
+    border-color: #D9D9D9;
+    background: #fff url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMzguMDAwMDAwcHQiIGhlaWdodD0iMzAuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAzOC4wMDAwMDAgMzAuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzMC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiMwMDAwMDAiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xNTMgMTUzIGwzNyAtMzggMzcgMzggMzggMzcgLTc1IDAgLTc1IDAgMzggLTM3eiIvPgo8L2c+Cjwvc3ZnPgo=') no-repeat right 5px top 55%;
+    background-size: 16px;
+}
+
+.cpost {
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.imgquestion1 {
+    margin-left: 110px;
+    position: relative;
+    display: inline-block;
+}
+
+.imgquestion2 {
+    margin-left: 110px;
+    position: relative;
+    display: inline-block;
+}
+
+.imgquestion3 {
+    margin-left: 110px;
+    position: relative;
+    display: inline-block;
+}
+
+.imgquestion4 {
+    margin-left: 110px;
+    position: relative;
+    display: inline-block;
+}
+
+.imgquestion5 {
+    margin-left: 170px;
+    position: relative;
+    display: inline-block;
+}
+
+.imgquestion6 {
+    margin-left: 170px;
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.popup {
+    position: absolute;
+    display: none;
+    background-color: #d9d9d9;
+    color: #000000;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-left: 350px;
+    margin-top: -25px;
+}
+
+/* Estilo da imagem ao passar o mouse */
+.imgquestion1:hover {
+    cursor: pointer;
+}
+
+/* Exibe a popup ao passar o mouse sobre a imagem */
+.imgquestion1:hover+.popup {
+    display: block;
+}
+
+.popup2 {
+    position: absolute;
+    display: none;
+    background-color: #d9d9d9;
+    color: #000000;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-left: 350px;
+    margin-top: -25px;
+}
+
+/* Estilo da imagem ao passar o mouse */
+.imgquestion2:hover {
+    cursor: pointer;
+}
+
+/* Exibe a popup ao passar o mouse sobre a imagem */
+.imgquestion2:hover+.popup2 {
+    display: block;
+}
+
+.popup3 {
+    position: absolute;
+    display: none;
+    background-color: #d9d9d9;
+    color: #000000;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-left: 350px;
+    margin-top: -25px;
+}
+
+/* Estilo da imagem ao passar o mouse */
+.imgquestion3:hover {
+    cursor: pointer;
+}
+
+/* Exibe a popup ao passar o mouse sobre a imagem */
+.imgquestion3:hover+.popup3 {
+    display: block;
+}
+
+.popup4 {
+    position: absolute;
+    display: none;
+    background-color: #d9d9d9;
+    color: #000000;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-left: 350px;
+    margin-top: -25px;
+}
+
+/* Estilo da imagem ao passar o mouse */
+.imgquestion4:hover {
+    cursor: pointer;
+}
+
+/* Exibe a popup ao passar o mouse sobre a imagem */
+.imgquestion4:hover+.popup4 {
+    display: block;
+}
+
+.popup5 {
+    position: absolute;
+    display: none;
+    background-color: #d9d9d9;
+    color: #000000;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    top: -80px;
+}
+
+/* Estilo da imagem ao passar o mouse */
+.imgquestion5:hover {
+    cursor: pointer;
+}
+
+/* Exibe a popup ao passar o mouse sobre a imagem */
+.imgquestion5:hover+.popup5 {
+    display: block;
+}
+
+.popup6 {
+    position: absolute;
+    display: none;
+    background-color: #d9d9d9;
+    color: #000000;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    top: 100px;
+}
+
+/* Estilo da imagem ao passar o mouse */
+.imgquestion6:hover {
+    cursor: pointer;
+}
+
+/* Exibe a popup ao passar o mouse sobre a imagem */
+.imgquestion6:hover+.popup6 {
+    display: block;
+}
+.loading {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #F0F0F1;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loader {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    top: 50%;
+    left:50%;
+    position: fixed;
+    height: 40px;
+    animation: spin 1s linear infinite;
+  }
+  
+  .message {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    text-align: center;
+    top: 58%;
+    line-height: 32px;
+    left:39%;
+  }
+
+  .message1 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    text-align: center;
+    top: 58%;
+    line-height: 32px;
+    left:37%;
+  }  
+
+  .message2 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    text-align: center;
+    top: 58%;
+    line-height: 32px;
+    left:37%;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
