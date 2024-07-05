@@ -1,11 +1,10 @@
 <?php
 /*
 Plugin Name: UWriteAI Plugin
-Plugin URI: https://uebyou.pt/
 Description: Plugin para gerar artigos com API
 Version: 1.0
 Author: João Peixoto
-Author URI: https://www.example.com/
+Author URI: https://jpex.dev/
 */
 
 // Add submenu to the WordPress admin menu
